@@ -9,9 +9,9 @@ Successfully retrofitted 3 high-priority chapters from the original 45 with stat
 
 ## Chapters Retrofitted
 
-### 1. Chapter 2.1 Day 1 - Understanding Federal and State Taxes
+### 1. L-6 Day 1 - Understanding Federal and State Taxes
 
-**File**: `/f-sync-90/content/Standard-2/2.1/student/day1.md`
+**File**: `/content-complete/L-6-federal-state-taxes/student/day1.md`
 
 **Variables Added**:
 - `{{STATE_NAME}}` (5 instances) - Personalizes state references
@@ -36,9 +36,9 @@ Successfully retrofitted 3 high-priority chapters from the original 45 with stat
 
 ---
 
-### 2. Chapter 2.1 Day 2 - Tax Impact Analysis Learning Lab
+### 2. L-6 Day 2 - Tax Impact Analysis Learning Lab
 
-**File**: `/f-sync-90/content/Standard-2/2.1/student/day2.md`
+**File**: `/content-complete/L-6-federal-state-taxes/student/day2.md`
 
 **Variables Added**:
 - `{{STATE_NAME}}` (3 instances)
@@ -54,9 +54,9 @@ Successfully retrofitted 3 high-priority chapters from the original 45 with stat
 
 ---
 
-### 3. Chapter 10.1 Day 2 - Renting vs. Owning Learning Lab
+### 3. L-30 Day 2 - Renting vs. Owning Learning Lab
 
-**File**: `/f-sync-90/content/Standard-10/10.1/student/day2.md`
+**File**: `/content-complete/L-30-housing-decisions/student/day2.md`
 
 **Variables Added**:
 - `{{STATE_NAME}}` (9 instances)
@@ -122,15 +122,15 @@ These should be added to the schema as calculated/derived values:
 The strategic audit identified additional chapters that could benefit from state variables:
 
 ### Medium Priority (2-3 mentions each):
-- **Chapter 1.3** (Income & Taxes) - 3 mentions of state tax
-- **Chapter 10.1 Day 1** (Housing Intro) - 3 mentions of housing costs
-- **Chapter 10.3 Day 2** (Housing decisions) - 3 mentions
-- **Chapter 2.5** (Tax planning) - 3 mentions
+- **L-3** (Income & Taxes) - 3 mentions of state tax
+- **L-30 Day 1** (Housing Intro) - 3 mentions of housing costs
+- **L-33 Day 2** (Housing decisions) - 3 mentions
+- **L-10** (Tax planning) - 3 mentions
 
 ### Lower Priority (2 mentions):
-- **Chapter 1.1** (Careers) - 2 mentions of minimum wage
-- **Chapter 3.2** (Banking) - 3 mentions of banking fees + 2 local examples
-- **Chapter 4.1** (Budgeting) - 5 mentions of banking fees
+- **L-1** (Careers) - 2 mentions of minimum wage
+- **L-12** (Banking) - 3 mentions of banking fees + 2 local examples
+- **L-16** (Budgeting) - 5 mentions of banking fees
 
 **Estimated Additional Effort**: ~6-8 hours to complete all medium/low priority retrofits
 

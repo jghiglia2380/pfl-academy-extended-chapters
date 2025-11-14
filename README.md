@@ -15,14 +15,14 @@ Complete curriculum personalization system with 24 L-chapters (46-69) and state-
 
 **Location**: `/content-complete/L-46` through `/content-complete/L-69`
 
-### 2. Original Chapters (1-45) - State Variable Retrofits
+### 2. Original Chapters (L-1 through L-45) - State Variable Retrofits
 4 strategically retrofitted chapters with state-specific personalization:
-- **Chapter 1.3**: Income and Taxes (3 variables)
-- **Chapter 2.1 Day 1**: Understanding Federal and State Taxes (16 variables)
-- **Chapter 2.1 Day 2**: Tax Impact Analysis Lab (6 variables)
-- **Chapter 10.1 Day 2**: Renting vs. Owning Lab (24 variables)
+- **L-3**: Income and Taxes (3 variables)
+- **L-6 Day 1**: Understanding Federal and State Taxes (16 variables)
+- **L-6 Day 2**: Tax Impact Analysis Lab (6 variables)
+- **L-30 Day 2**: Renting vs. Owning Lab (24 variables)
 
-**Location**: `/content-complete/Standard-1`, `/Standard-2`, `/Standard-10`
+**Location**: `/content-complete/L-3`, `/L-6`, `/L-30`
 
 ### 3. State Data Layer - Complete Infrastructure
 Automated system for personalizing curriculum with state-specific data across all 69 chapters.
@@ -50,12 +50,12 @@ The state data layer enables curriculum personalization through a simple 3-step 
 ```
 pfl-academy-extended-chapters/
 ├── content-complete/
-│   ├── L-46-automobile-finance/          # Extended chapters
+│   ├── L-3-income-and-taxes/             # Retrofitted original
+│   ├── L-6-federal-state-taxes/          # Retrofitted original
+│   ├── L-30-housing-decisions/           # Retrofitted original
+│   ├── L-46-automobile-finance/          # Extended chapters start here
 │   ├── L-47-introduction-to-investment-types/
-│   ├── ... (L-48 through L-69)
-│   ├── Standard-1/1.3/                   # Retrofitted originals
-│   ├── Standard-2/2.1/
-│   └── Standard-10/10.1/
+│   └── ... (L-48 through L-69)
 │
 ├── state-data/                           # State personalization infrastructure
 │   ├── states/                           # 4 example state files (TX, CA, VA, FL)
@@ -197,24 +197,24 @@ python state_data_updater.py
 
 ## 🎯 Retrofitted Chapters Detail
 
-### Chapter 1.3: Income and Taxes (3 variables)
+### L-3: Income and Taxes (3 variables)
 - Line 46: Shows student's state income tax rate when teaching mandatory deductions
 - Line 107: Personalizes paycheck example with actual state tax calculation
 
 **Why organic**: Chapter teaches state income tax as core content - showing actual rate makes lesson immediately relevant.
 
-### Chapter 2.1 Day 1: Understanding Federal and State Taxes (16 variables)
+### L-6 Day 1: Understanding Federal and State Taxes (16 variables)
 - Replaced generic CA vs TX comparison with single state-personalized example
 - Added state-specific data to tax overview section
 - Personalized pay stub analysis with state withholding
 
 **Impact**: Students see their own state's tax structure instead of distant examples.
 
-### Chapter 2.1 Day 2: Tax Impact Analysis Lab (6 variables)
+### L-6 Day 2: Tax Impact Analysis Lab (6 variables)
 - Added "Your Home State" info box with baseline data
 - Students have reference point when researching other states
 
-### Chapter 10.1 Day 2: Renting vs. Owning Lab (24 variables)
+### L-30 Day 2: Renting vs. Owning Lab (24 variables)
 - Housing calculator pre-populated with state median values
 - Portfolio project includes state baseline data for research
 - Economic context using state employment data
