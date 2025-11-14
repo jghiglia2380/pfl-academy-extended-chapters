@@ -24,6 +24,7 @@
     "dmv_url": "https://www.dmv.ca.gov"
   },
   "taxes": {
+    "income_tax_rate": 9.3,
     "sales_tax": 7.25,
     "local_sales_tax_min": 0.15,
     "local_sales_tax_max": 3.0,
@@ -123,6 +124,10 @@
     "first_time_homebuyer_program": "CalHFA - California Housing Finance Agency offers MyHome Assistance Program with down payment assistance up to 3.5%",
     "avg_mortgage_rate_30yr": 7.18
   },
+  "insurance": {
+    "homeowners_avg_monthly": 150,
+    "data_source": "California Department of Insurance average rates for $300K home coverage"
+  },
   "employment": {
     "min_wage": 16.00,
     "unemployment_rate": 5.3,
@@ -140,6 +145,14 @@
   "consumer_protection": {
     "consumer_protection_agency": "California Attorney General - Consumer Protection Section",
     "consumer_protection_url": "https://oag.ca.gov/consumers"
+  },
+  "calculated_values": {
+    "state_tax_on_3500_monthly": 326,
+    "calculated_state_tax_70k": 6510,
+    "total_effective_rate": 23.3,
+    "take_home_pay_70k": 48335,
+    "property_tax_300k": 3030,
+    "state_withholding_48k_monthly": 372
   },
   "local_examples": {
     "major_retailers": "Target, Walmart, Costco, Trader Joe's, Safeway",

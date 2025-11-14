@@ -24,6 +24,7 @@
     "dmv_url": "https://www.flhsmv.gov"
   },
   "taxes": {
+    "income_tax_rate": 0,
     "sales_tax": 6.0,
     "local_sales_tax_min": 0,
     "local_sales_tax_max": 2.0,
@@ -123,6 +124,10 @@
     "first_time_homebuyer_program": "Florida Housing Finance Corporation - offers down payment assistance and competitive rates through Florida Homebuyer Opportunity Program",
     "avg_mortgage_rate_30yr": 7.15
   },
+  "insurance": {
+    "homeowners_avg_monthly": 280,
+    "data_source": "Florida Office of Insurance Regulation average rates for $300K home coverage (higher due to hurricane risk)"
+  },
   "employment": {
     "min_wage": 12.00,
     "unemployment_rate": 3.0,
@@ -140,6 +145,14 @@
   "consumer_protection": {
     "consumer_protection_agency": "Florida Attorney General - Consumer Protection Division",
     "consumer_protection_url": "https://www.myfloridalegal.com/consumer-protection"
+  },
+  "calculated_values": {
+    "state_tax_on_3500_monthly": 0,
+    "calculated_state_tax_70k": 0,
+    "total_effective_rate": 14.0,
+    "take_home_pay_70k": 54845,
+    "property_tax_300k": 3000,
+    "state_withholding_48k_monthly": 0
   },
   "local_examples": {
     "major_retailers": "Publix, Target, Walmart, Winn-Dixie, Costco",

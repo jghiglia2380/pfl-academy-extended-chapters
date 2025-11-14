@@ -24,6 +24,7 @@
     "dmv_url": "https://www.txdmv.gov"
   },
   "taxes": {
+    "income_tax_rate": 0,
     "sales_tax": 6.25,
     "local_sales_tax_min": 0,
     "local_sales_tax_max": 2.0,
@@ -123,6 +124,10 @@
     "first_time_homebuyer_program": "Texas State Affordable Housing Corporation (TSAHC) - My First Texas Home program offers down payment assistance and competitive rates",
     "avg_mortgage_rate_30yr": 7.12
   },
+  "insurance": {
+    "homeowners_avg_monthly": 200,
+    "data_source": "Texas Department of Insurance average rates for $300K home coverage"
+  },
   "employment": {
     "min_wage": 7.25,
     "unemployment_rate": 4.1,
@@ -140,6 +145,14 @@
   "consumer_protection": {
     "consumer_protection_agency": "Texas Attorney General - Consumer Protection Division",
     "consumer_protection_url": "https://www.texasattorneygeneral.gov/consumer-protection"
+  },
+  "calculated_values": {
+    "state_tax_on_3500_monthly": 0,
+    "calculated_state_tax_70k": 0,
+    "total_effective_rate": 14.0,
+    "take_home_pay_70k": 54845,
+    "property_tax_300k": 5550,
+    "state_withholding_48k_monthly": 0
   },
   "local_examples": {
     "major_retailers": "H-E-B, Buc-ee's, Academy Sports, Target, Walmart",

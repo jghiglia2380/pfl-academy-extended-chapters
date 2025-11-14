@@ -24,6 +24,7 @@
     "dmv_url": "https://www.dmv.virginia.gov"
   },
   "taxes": {
+    "income_tax_rate": 5.75,
     "sales_tax": 4.3,
     "local_sales_tax_min": 0.7,
     "local_sales_tax_max": 1.7,
@@ -123,6 +124,10 @@
     "first_time_homebuyer_program": "Virginia Housing - offers down payment assistance and competitive mortgage rates for first-time buyers",
     "avg_mortgage_rate_30yr": 7.08
   },
+  "insurance": {
+    "homeowners_avg_monthly": 140,
+    "data_source": "Virginia Bureau of Insurance average rates for $300K home coverage"
+  },
   "employment": {
     "min_wage": 12.00,
     "unemployment_rate": 3.2,
@@ -140,6 +145,14 @@
   "consumer_protection": {
     "consumer_protection_agency": "Virginia Attorney General - Consumer Protection Section",
     "consumer_protection_url": "https://www.oag.state.va.us/consumer-protection"
+  },
+  "calculated_values": {
+    "state_tax_on_3500_monthly": 201,
+    "calculated_state_tax_70k": 4025,
+    "total_effective_rate": 19.8,
+    "take_home_pay_70k": 50820,
+    "property_tax_300k": 2550,
+    "state_withholding_48k_monthly": 230
   },
   "local_examples": {
     "major_retailers": "Target, Walmart, Kroger, Wegmans, Costco",
